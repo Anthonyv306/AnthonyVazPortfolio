@@ -1,0 +1,64 @@
+/*Use slash and asterisk to make comments */
+body{
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("images/Untitled-1.jpg");
+    background-repeat: repeat;/*no tile affect*/
+    background-attachment: local;/*Text scrolls over bg*/
+    background-position: center top;
+    color:#000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a:Link{
+    color:rgb(71, 255, 195);
+    text-decoration: none;
+}
+
+.logo{
+    width:35%;
+   
+}
+.port{
+    width:40%;
+    align-content: center;
+}
+
+.bbf{
+    width: 50%;
+    align-content: center;
+        padding: 10px
+}
+
+a:hover{
+    color:#ff0000;
+    background-color: (#000000);
+    text-decoration: none;
+
+}
+h3{text-decoration-line: underline;}
+main{
+    margin: 0 auto;
+    width: 80%;/*absolute sizing*/
+  background-image: url("images/note.png");
+    background-repeat: repeat;
+    background-size: 8%;
+    padding:5px;
+    border: solid 3px rgba(128,129,128,1);
+    border-radius:3px 3px;
+    text-align: center;
+    
+}
+
+
+nav{
+     margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #0576ff;
+        width: 80%;/* Relative to container*/
+    height: 30px;/*absolute sizing*/
+    padding: 10px 4px 4px 4px;/*top right bottem left*/
+     border:  1px rgba(255,255,255,1);
+    border-radius:0 0 0 0;
+}
+
